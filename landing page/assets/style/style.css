@@ -1,0 +1,66 @@
+a {
+  text-decoration: none !important;
+}
+
+section {
+  padding-top: 2rem !important;
+}
+
+/* Header Navbar */
+nav.navbar-warna {
+  background-color: #427d9d !important;
+}
+
+/* Hero Sectio */
+section.background-atas {
+  background-color: #427d9d;
+  margin-bottom: 5px;
+}
+
+section h1 {
+  margin-top: 25%;
+}
+
+/* Benefit Section */
+.benefit {
+  background-color: #f1f7fa;
+}
+
+/* Promotion Section */
+.title {
+  margin-bottom: 15px;
+}
+
+/* Testimony Section */
+.testimoni {
+  background-color: #f1f7fa;
+  margin-top: 50px;
+  padding: 10px 10px 50px;
+}
+
+.testimoni .ulasan {
+  height: 100%;
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: white;
+  position: relative;
+}
+
+/* Footer */
+.background-transparan {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/building.jpg") fixed center center;
+  background-size: cover;
+  padding: 50px;
+}
+
+.footer-bawah {
+  margin-top: 25px;
+  padding: 40px;
+  font-size: 14px;
+  background-color: #427d9d;
+}
+
+.footer-bawah a {
+  color: white;
+}
