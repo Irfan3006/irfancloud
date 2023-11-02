@@ -47,6 +47,19 @@ section h1 {
   position: relative;
 }
 
+/* Pricing Section */
+
+/* Contact Section */
+.kontak-warna {
+  padding: 20px;
+  background-color: #f1f7fa;
+}
+
+/* Location Section */
+.location {
+  padding-bottom: 25px;
+}
+
 /* Footer */
 .background-transparan {
   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/building.jpg") fixed center center;
