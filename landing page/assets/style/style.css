@@ -47,12 +47,16 @@ section h1 {
   position: relative;
 }
 
-/* Pricing Section */
-
 /* Contact Section */
 .kontak-warna {
   padding: 20px;
   background-color: #f1f7fa;
+}
+
+/* Image Map */
+
+.pointer {
+  cursor: pointer;
 }
 
 /* Location Section */

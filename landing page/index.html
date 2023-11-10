@@ -8,6 +8,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Meta Tag SEO -->
+    <meta name="title" content="IRFANCLOUD" />
+    <meta name="description" content="Cari cloud storage? IRFANCLOUD aja!!" />
+    <meta name="keywords" content="IRFANCLOUD,IRFAN CLOUD,Landing Page,Cloud Storage,Irfan Syarifudin" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Irfan Syarifudin" />
+
+    <!-- Google Meta Tag -->
+    <meta name="google-site-verification" content="2NCzEnudDZAUCuK82MVOr7OhAjXphjuUGVJ2fsx60qo" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="assets/style/style.css" />
 
@@ -17,7 +28,7 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <title>Cloud Storage</title>
+    <title>IRFANCLOUD</title>
   </head>
   <body>
     <!--  Navbar Start -->
@@ -47,9 +58,9 @@
             <li class="nav-item dropdown">
               <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Other </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#location">Location</a></li>
                 <li><a class="dropdown-item" href="#contact">Contact</a></li>
-                <li><a class="dropdown-item" target="_blank" href="https://github.com/Irfan3006">Github</a></li>
+                <li><a class="dropdown-item" href="#image-map">Server Location</a></li>
+                <li><a class="dropdown-item" href="#location">Company Location</a></li>
               </ul>
             </li>
             <a href="https://bit.ly/3MoU9m0" target="_blank"><button class="btn btn-sm btn-info btn-outline-secondary text-light fw-bold" type="button">Hubungi Kami</button></a>
@@ -311,10 +322,30 @@
       </section>
       <!-- Contact End -->
 
+      <!-- Map Image Start -->
+      <section id="image-map">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col pt-4">
+              <div class="image-map-size text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <h2>Server Kami</h2>
+                <img src="assets/img/map.png" width="80%" usemap="#image_map" />
+                <map name="image_map">
+                  <area alt="Kalimantan" title="kalimantan" class="pointer" onclick="kalimantan()" coords="299,191,16" shape="circle" />
+                  <area alt="Surabaya" title="surabaya" class="pointer" onclick="surabaya()" coords="282,265,13" shape="circle" />
+                  <area alt="Yogyakarta" title="yogyakarta" class="pointer" onclick="yogyakarta()" coords="252,274,12" shape="circle" />
+                </map>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Map Image End -->
+
       <!-- Location Section Start -->
       <section id="location" class="location">
         <div class="container">
-          <div class="row text-center">
+          <div class="row text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="col">
               <div class="title-map text-center m-4">
                 <h2>Lokasi Kami</h2>
@@ -347,6 +378,21 @@
       </section>
     </footer>
     <!-- Footer End -->
+
+    <!-- SweetAlet -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+      function kalimantan() {
+        Swal.fire("Server Kalimantan Tengah", "Server ini adalah server utama", "info");
+      }
+      function surabaya() {
+        Swal.fire("Server Surabaya", "Server ini adalah server kedua", "info");
+      }
+      function yogyakarta() {
+        Swal.fire("Server Yogyakarta", "Server ini adalah server ketiga", "info");
+      }
+    </script>
 
     <!-- BootStrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
